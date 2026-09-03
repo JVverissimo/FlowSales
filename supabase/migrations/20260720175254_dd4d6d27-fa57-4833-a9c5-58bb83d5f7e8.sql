@@ -1,0 +1,1 @@
+ALTER TABLE public.cadences ADD COLUMN IF NOT EXISTS default_shift text;

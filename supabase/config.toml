@@ -1,0 +1,13 @@
+project_id = "dwredccetshbuspikayn"
+
+[functions.admin-create-user]
+verify_jwt = false
+
+[functions.bootstrap-users]
+verify_jwt = false
+
+[functions.leads]
+verify_jwt = false
+
+[functions.get-api-key]
+verify_jwt = true

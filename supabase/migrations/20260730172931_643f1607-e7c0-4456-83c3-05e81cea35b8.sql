@@ -1,0 +1,1 @@
+UPDATE public.leads SET data_entrada = '2026-07-30' WHERE id = 'c3557430-fa87-499e-9bb3-27ea504beae3';

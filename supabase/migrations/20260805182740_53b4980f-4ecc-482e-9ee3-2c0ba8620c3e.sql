@@ -1,0 +1,1 @@
+UPDATE public.leads SET status='active', loss_reason=NULL WHERE status='lost' AND coalesce(phase_index,0) > 0 AND loss_reason = 'Cadência concluída sem conversão';

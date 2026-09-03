@@ -1,0 +1,1 @@
+CREATE POLICY "SDRs can insert own leads" ON public.leads FOR INSERT TO authenticated WITH CHECK (owner_id = auth.uid());
